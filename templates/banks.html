@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>Banks in {{state}}</title>
+	</head>
+	<body>
+		<ul>
+		{% for bank in banks %}
+			<li>{{bank[0]}} {{bank[1]}}</li>
+		</ul>
+		{% endfor %}
+	</body>
+</html>
+
+
